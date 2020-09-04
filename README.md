@@ -1,6 +1,9 @@
-# Backup-full-vps
+# Backup Full VPS
 Script Bash para realizar una copia de seguridad completa del sistema.
 
 Ejecutar manualmente:
+
 chmod +x backup-full.sh
+
 sudo ./backup-full.sh
+
