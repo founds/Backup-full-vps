@@ -19,7 +19,8 @@ DIR_BK='/home/backups'
 if [ ! -d $DIR_BK ]
 then
     mkdir $DIR_BK
-    
+fi
+
 tar -cvpzf $DIR_BK/backup-$HOST-FULL-$FECHA.tar.gz --exclude=/home/backups --exclude=/mnt --exclude=/sys --exclude=dev/pts --exclude=/proc --exclude=/lost+found --one-file-system /
 
 
